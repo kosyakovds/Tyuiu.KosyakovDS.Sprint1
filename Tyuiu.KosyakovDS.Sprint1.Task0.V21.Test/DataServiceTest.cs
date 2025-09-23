@@ -1,6 +1,6 @@
-﻿using Tyuiu.KosyakovDS.Sprint1.Task0.V0.Lib;
+﻿using Tyuiu.KosyakovDS.Sprint1.Task0.V21.Lib;
 
-namespace Tyuiu.KosyakovDS.Sprint1.Task0.V0.Test
+namespace Tyuiu.KosyakovDS.Sprint1.Task0.V21.Test
 {
     [TestClass]
     public class DataServiceTest
