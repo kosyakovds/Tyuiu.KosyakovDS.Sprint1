@@ -29,9 +29,9 @@ namespace Tyuiu.KosyakovDS.Sprint1.Task1.V23
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Укажите значение x:");
-            double x = double.Parse(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Укажите значение a:");
-            double a = double.Parse(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("(x*Pi)/(2*a) = " + ds.Calculate(x, a));
         }
     }

@@ -6,7 +6,8 @@ namespace Tyuiu.KosyakovDS.Sprint1.Task1.V23.Lib
     {
         public double Calculate(double x, double a)
         {
-            double res = (x * Math.PI) / (2 * a);
+            double pi = 3.14;
+            double res = (x * pi) / (2 * a);
             return res;
         }
     }
