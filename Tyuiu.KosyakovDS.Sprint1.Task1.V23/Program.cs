@@ -11,7 +11,7 @@ namespace Tyuiu.KosyakovDS.Sprint1.Task1.V23
             Console.Title = "Спринт #1 | Выполнил Косяков Д. С. | ИИПб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Организация ввода\вывода в консольных приложениях                 *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #23                                                             *");
             Console.WriteLine("* Выполнил: Косяков Дмитрий Сергеевич | ИИПб-25-1                         *");

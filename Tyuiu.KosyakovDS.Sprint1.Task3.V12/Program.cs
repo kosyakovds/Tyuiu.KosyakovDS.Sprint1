@@ -1,6 +1,6 @@
-﻿using Tyuiu.KosyakovDS.Sprint1.Task2.V26.Lib;
+﻿using Tyuiu.KosyakovDS.Sprint1.Task3.V12.Lib;
 
-namespace Tyuiu.KosyakovDS.Sprint1.Task2.V26
+namespace Tyuiu.KosyakovDS.Sprint1.Task3.V12
 {
     class Program
     {
@@ -11,30 +11,30 @@ namespace Tyuiu.KosyakovDS.Sprint1.Task2.V26
             Console.Title = "Спринт #1 | Выполнил Косяков Д. С. | ИИПб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #26                                                             *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнил: Косяков Дмитрий Сергеевич | ИИПб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+            Console.WriteLine("* Написать программу для вычисления площади прямоугольного треугольника   *");
+            Console.WriteLine("* по длинам двух катетов.                                                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* x = 2, y = 10                                                           *");
+            Console.WriteLine("* x = 5, y = 4                                                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите часы:");
-            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину первого катета:");
+            double x = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Введите минуты:");
-            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину второго катета:");
+            double y = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Минут прошло с начала суток: " + ds.CalculateMinutesSinceStart(x, y));
+            Console.WriteLine("Площадь треугольника: " + ds.TriangleArea(x, y));
 
             Console.ReadLine();
         }
