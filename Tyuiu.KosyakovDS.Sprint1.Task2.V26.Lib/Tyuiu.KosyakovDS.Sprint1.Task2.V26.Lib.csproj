@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\kosya\source\repos\Tyuiu.KosyakovDS.Sprint1\Tyuiu.KosyakovDS.Sprint1.Task1.V23.Lib\DataService.cs" Link="DataService.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
